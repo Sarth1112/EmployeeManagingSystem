@@ -1,0 +1,7 @@
+To create the full-stack employee management application, I started by setting up the backend using Spring Boot. I added key dependencies such as Spring Web for handling HTTP requests, Spring Data JPA with Hibernate for interacting with the MySQL database, and Lombok for reducing boilerplate code in the entity classes. I configured the application to connect with the MySQL database by specifying the database credentials in the application.properties file. This configuration allowed seamless communication between the backend and the database.
+![ss1](https://github.com/user-attachments/assets/b2df0754-30a4-43bd-bf8f-df677f1585e0)
+
+The backend architecture followed a layered approach, consisting of the controller, service, repository, and database layers. The controller layer handled incoming HTTP requests and forwarded them to the service layer, which contained the business logic. The service layer interacted with the repository layer, which used Spring Data JPA to perform CRUD operations (Create, Read, Update, Delete) on the MySQL database. These operations were essential for managing employee data.
+![ss2](https://github.com/user-attachments/assets/b8de6f95-d4c8-4cbb-84e0-fcdb6932f689)
+After the backend was functional, I developed the frontend using React. The React application communicated with the backend server through API calls, allowing the frontend to display employee data and perform CRUD operations. This resulted in a dynamic and interactive interface where users could manage employee information seamlessly.
+
